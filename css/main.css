@@ -31,23 +31,26 @@ h1, h2, h3 {
 
 .person {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 
 .person img {
-  border-radius: 50%;
+  border-radius: 20%;
   margin-right: 20px;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
 }
 
 .person-info h2 {
   margin: 0;
+  font-size: 45px;
 }
 
 .person-info p {
   margin: 5px 0;
+  font-size: 35px;
 }
 
 .container {
